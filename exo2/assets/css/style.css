@@ -1,0 +1,30 @@
+header{
+    background-color: aquamarine;
+}
+@media screen and (max-width:375px){
+    ul#menu{
+        display: none;
+    }
+    label{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        background-color: aquamarine;
+        
+
+    }
+}
+
+@media screen and (min-width:375px){
+    label{
+        display:none;
+    }
+    ul {
+        display: flex;
+        list-style: none;
+        justify-content: space-between;
+    }
+    a{
+        text-decoration: none;
+    }
+}

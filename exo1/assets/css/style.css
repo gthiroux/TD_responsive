@@ -1,0 +1,19 @@
+@media screen and (max-width:375px){
+    p{
+        color:blue;
+        background-color: aqua;
+    }
+}
+@media screen and (min-width:375px)and (max-width:1025px){
+    p{
+        color:blue;
+        background-color: yellow;
+    }
+}
+@media screen and (min-width:1025px){
+    p{
+        color:green;
+        background-color: orange;
+    }
+}
+
