@@ -1,19 +1,19 @@
-@media screen and (max-width:375px){
+/* mobile first */
+p{
+    color: #0000ff;
+    background-color: #00ffff;
+}
+/* version tablette */
+@media screen and (min-width: 376px)and (max-width: 1025px){
     p{
-        color:blue;
-        background-color: aqua;
+        background-color: #ffff00;
     }
 }
-@media screen and (min-width:375px)and (max-width:1025px){
+/* version ordi */
+@media screen and (min-width: 1025px){
     p{
-        color:blue;
-        background-color: yellow;
-    }
-}
-@media screen and (min-width:1025px){
-    p{
-        color:green;
-        background-color: orange;
+        color: #008000;
+        background-color: #ffa500;
     }
 }
 
