@@ -5,7 +5,7 @@ ul{
     display: flex;
     justify-content: flex-start;
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 376px) {
   ul#menu li:not(:first-child){
     display: none;
   }
