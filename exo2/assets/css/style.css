@@ -6,27 +6,31 @@ ul{
     justify-content: flex-start;
 }
 @media screen and (max-width: 376px) {
+  /* Fait disparaitre tout les liens sauf le burger */
   ul#menu li:not(:first-child){
     display: none;
   }
+  /* enleve les puces des listes */
   #menu li{
     list-style: none;
   }
   label {
     display: flex;
-    background-color: #7fffd4;
   }
 }
 
 @media screen and (min-width: 376px) {
+  /* Fait disparaitre le burger */
   label {
     display: none;
   }
+  /* fait apparaitre les autres elements de la nav */
   #menu{
     display: flex;
     list-style: none;
     justify-content: space-between;
   }
+  /* enleve les soulignement des liens */
   a {
     text-decoration: none;
   }
